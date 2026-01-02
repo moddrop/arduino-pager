@@ -15,10 +15,10 @@ void setup() {
   lcd.backlight();
 
   lcd.setCursor(3, 0);
-	lcd.print("WELCOME TO");
+	lcd.print("PAGER");
 
   lcd.setCursor(0, 1);
-  lcd.print("TEMPLE OS MOBILE");
+  lcd.print("by md");
 
   pinMode(buzzerPin, OUTPUT); 
 
@@ -52,7 +52,7 @@ void startup() {
 	lcd.backlight();
 
   lcd.setCursor(0, 0);
-  lcd.print("Public Domain OS");
+  lcd.print("Page Home");
 
   lcd.setCursor(5, 1);
 	lcd.print("Menu");
